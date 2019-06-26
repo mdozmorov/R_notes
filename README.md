@@ -3,6 +3,7 @@
 # Table of content
 
 * [Repositories](#repositories)
+* [Books](#books)
 * [Misc](#misc)
 
 ## Repositories
@@ -106,6 +107,17 @@
 
 - `user2016-tutorial-shiny` - Shiny tutorial, https://github.com/gaborcsardi/user2016-tutorial-shiny
 
+# Books
+
+- [**R for Data Science**](https://r4ds.had.co.nz/), by Garrett Grolemund and Hadley Wickham
+
+- [**Yet another ‘R for Data Science’ study guide**](https://brshallo.github.io/r4ds_solutions/), by Bryan Shalloway
+
+- [**Fundamentals of Data Visualization**](https://serialmentor.com/dataviz/), by Claus O. Wilke
+
+- [**Text Mining with R**](http://tidytextmining.com/), by Julia Silge and David Robinson
+
+
 
 # Misc
 
@@ -113,13 +125,9 @@
 
 - The learnr tutorials in RStudio Cloud's primers, https://github.com/rstudio-education/primers, avaliable on RStudio Cloud, https://rstudio.cloud/projects
 
-- "Fundamentals of Data Visualization" book by Claus O. Wilke, https://serialmentor.com/dataviz/
-
 - John DeNero 2017, Data 8: The Foundation of Data Science course, Berkeley. http://data8.org/sp17/
 
 - List of courses teaching R, [https://github.com/rstudio-education/rstats-ed](https://github.com/rstudio-education/rstats-ed)
-
-- "Text Mining with R", by Julia Silge and David Robinson, http://tidytextmining.com/
 
 - "OnePageR", book "Data Science Quick Start: Knowledge Discovery Through R" by Togaware, https://togaware.com/onepager/, includes pdf slides and R code templates for various machine learning tasks
 
