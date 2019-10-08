@@ -80,6 +80,8 @@
 
 - `og-aws` - Amazon Web Services — a practical guide [https://github.com/open-guides/og-aws](https://github.com/open-guides/og-aws)
 
+- `online-courses` - Free courses by RSquareAcademy. From data import to tidyverse, web scraping, regex, databases. Videos, slides, code, data. https://github.com/rsquaredacademy-education/online-courses/
+
 - `GCB` - machine learning course by Casey Greene, https://github.com/greenelab/GCB535
 
 - `Rcourse` - Class notes for my "R" course at Ben Gurion University. https://github.com/johnros/Rcourse, http://www.john-ros.com/Rcourse/
