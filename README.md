@@ -1,4 +1,4 @@
-# Data science in R
+# Data science in R notes
 
 # Table of content
 
@@ -110,6 +110,8 @@
 - `user2016-tutorial-shiny` - Shiny tutorial, https://github.com/gaborcsardi/user2016-tutorial-shiny
 
 # Books
+
+- [**Circular Visualization in R**](https://jokergoo.github.io/circlize_book/book/), by Zuguang Gu
 
 - [**R for Data Science**](https://r4ds.had.co.nz/), by Garrett Grolemund and Hadley Wickham
 
