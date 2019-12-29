@@ -2,9 +2,15 @@
 
 # Table of content
 
+* [Cheatsheets](#Cheatsheets)
 * [Repositories](#repositories)
 * [Books](#books)
 * [Misc](#misc)
+
+## Cheatsheets
+
+- List of Data Science Cheatsheets to rule the world, https://github.com/FavioVazquez/ds-cheatsheets
+
 
 ## Repositories
 
