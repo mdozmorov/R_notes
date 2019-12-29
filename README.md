@@ -9,6 +9,7 @@
 
 ## Cheatsheets
 
+- Data Science Cheatsheets, https://github.com/abhat222/Data-Science--Cheat-Sheet
 - List of Data Science Cheatsheets to rule the world, https://github.com/FavioVazquez/ds-cheatsheets
 
 
