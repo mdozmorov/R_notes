@@ -1,159 +1,281 @@
-# Data science in R notes
+# R related notes
+
+R learning and data analysis resources. Please, [contribute and get in touch](CONTRIBUTING.md)! See [MDmisc notes](https://github.com/mdozmorov/MDmisc_notes) for other programming and genomics-related notes.
 
 # Table of content
 
-* [Cheatsheets](#Cheatsheets)
-* [Repositories](#repositories)
-* [Books](#books)
-* [Misc](#misc)
+<!-- START doctoc generated TOC please keep comment here to allow auto update -->
+<!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
+
+
+- [General](#general)
+- [Cheatsheets](#cheatsheets)
+- [Courses](#courses)
+- [R Package Development](#r-package-development)
+  - [Bioconductor](#bioconductor)
+- [R Data Analysis](#r-data-analysis)
+  - [Imputation](#imputation)
+  - [Visualization](#visualization)
+  - [Dimensionality reduction](#dimensionality-reduction)
+- [R Misc](#r-misc)
+- [R tips & tricks](#r-tips--tricks)
+- [R questions](#r-questions)
+
+<!-- END doctoc generated TOC please keep comment here to allow auto update -->
+
+## General
+
+- [Tips how to configure RStudio](https://drdoane.com/my-rstudio-configuration/)
+
+- [rstudio.cloud](https://rstudio.cloud) - a web-based instance of R/RStudio. [RStudio cloud cheatsheet and notes](https://docs.google.com/presentation/d/1Lc0_hLgLUh0KSS5DIEZBUfE4KzeU8kH25nGY4w2kE1o/edit#slide=id.g606317e658_0_167), from [Twitter](https://twitter.com/lobrowR/status/1295114281428684806?s=20) source. [RStudio Cloud for education - Mel Gregory](https://youtu.be/PviVimazpz8) - 24 min video with all the essense of using RStudio cloud for education
 
 ## Cheatsheets
 
-- Data Science Cheatsheets, https://github.com/abhat222/Data-Science--Cheat-Sheet
-- List of Data Science Cheatsheets to rule the world, https://github.com/FavioVazquez/ds-cheatsheets
+- [RStudio Cheatsheets](https://www.rstudio.com/resources/cheatsheets/) - PDFs, PowerPoint, Keynote formats. [GitHub](https://github.com/rstudio/cheatsheets)
 
+- [stat133-cheatsheets](https://github.com/ucb-stat133/stat133-cheatsheets) - Cheat sheets on R, RStudio, tidyverse, ggplot2, plotly,  shiny, git, and moreucb-stat133/stat133-cheatsheets)
 
-## Repositories
+- [ardeeshany/Parallel_Computing](https://github.com/ardeeshany/Parallel_Computing) - A CheatSheet for Parallel Computation in R
 
-- `2016` - "Introduction to Data Science" by Rafael Irizarry and Stephanie Hicks, [https://datasciencelabs.github.io/index.html](https://datasciencelabs.github.io/index.html) and [https://github.com/datasciencelabs/2016](https://github.com/datasciencelabs/2016). Data for the course is at [https://github.com/datasciencelabs/data](https://github.com/datasciencelabs/data)
+- [awesome-R](https://github.com/qinwf/awesome-R) - A curated list of awesome R packages, frameworks and software
 
-- `autoEDA-resources` - A list of software and papers related to automatic/fast Exploratory Data Analysis. https://github.com/mstaniak/autoEDA-resources
+- [awesome-rshiny](https://github.com/grabear/awesome-rshiny) - a list of resources to learn R Shiny
 
-- `awesome-docker` - A curated list of Docker resources and projects. Web-site [https://awesome-docker.netlify.com/](https://awesome-docker.netlify.com/, and GitHub [https://github.com/veggiemonk/awesome-docker](https://github.com/veggiemonk/awesome-docker)
 
-- `awesome-pipeline` - A curated list of awesome pipeline toolkits inspired by Awesome Sysadmin. [https://github.com/pditommaso/awesome-pipeline](https://github.com/pditommaso/awesome-pipeline)
+## Courses
 
-- `awesome-R` - A curated list of awesome R packages, frameworks and software, [https://github.com/qinwf/awesome-R](https://github.com/qinwf/awesome-R), and the web-site [https://awesome-r.com/](https://awesome-r.com/)
+- [A very short R introduction](https://cran.r-project.org/doc/contrib/Torfs+Brauer-Short-R-Intro.pdf)
 
-- `awesome-rshiny` - a list of resources to learn R Shiny. [https://github.com/grabear/awesome-rshiny](https://github.com/grabear/awesome-rshiny)
+- [A Complete Tutorial to learn Data Science in R from Scratch](http://www.analyticsvidhya.com/blog/2016/02/complete-tutorial-learn-data-science-scratch/) - Basics of R, with short and conscise examples
 
-- `bigdataclass2018` - Big Data with R class by RStudio, [https://github.com/rstudio/bigdataclass2018](https://github.com/rstudio/bigdataclass2018)
+- [teach-r](https://github.com/coatless/teach-r) - List of Resources for Teaching R
 
-- `Bioinformatics-Resources` - A curated list of resources for learning bioinformatics, from technologies, tools, educational material, to skills, people, blogs. [https://github.com/JhuangLab/Bioinformatics-Resources](https://github.com/JhuangLab/Bioinformatics-Resources)
+- [List of courses teaching R](https://github.com/rstudio-education/rstats-ed)
 
-- `biostat561` - Computational Skills for Biostatistics, from version control, R programming, ggplot, shiny, to Unix, LaTeX, Markdown, Python. https://github.com/adw96/biostat561
+- [The learnr tutorials in RStudio Cloud's primers](https://github.com/rstudio-education/primers), avaliable on [RStudio Cloud](https://rstudio.cloud/projects)
 
-- `cheatsheets` - RStudio Cheat Sheets, pdfs, PowerPoint, Keynote formats, [https://github.com/rstudio/cheatsheets](https://github.com/rstudio/cheatsheets). Also, here, [https://www.rstudio.com/resources/cheatsheets/](https://www.rstudio.com/resources/cheatsheets/)
+- [swirl](http://swirlstats.com/) - R package for interactive R leaning
 
-- `compbio` - Introduction to Computational Biology course by Mike Love, https://github.com/biodatascience/compbio and https://biodatascience.github.io/compbio/
+- [FasteR](https://github.com/matloff/fasteR) - Fast Lane to Learning R, learn R language in R console by following examples, by Norm Matloff
 
-- `courses` - Notes on AWS, cloud computing, Docker, [https://github.com/uvasomrc/courses](https://github.com/uvasomrc/courses)
+- [Hands-On Programming with R](https://rstudio-education.github.io/hopr) - introductory book how to program in R, with hands-on examples, by Garrett Grolemund
 
-- `courses_AWS` - AWS training, https://github.com/uvasomrc/courses
+- [R for Data Science](https://r4ds.had.co.nz/) - a Tidyverse-oriented introduction to R online book, by Garrett Grolemund and Hadley Wickham
 
-- `CSAMA` - Course material for CSAMA: Statistical Data Analysis for Genome Scale Biology. https://github.com/Bioconductor/CSAMA, https://www.bioconductor.org/help/course-materials/2017/CSAMA/
+- [Advanced R](https://adv-r.hadley.nz/) and [Advanced R Solutions](https://advanced-r-solutions.rbind.io) - Advanced R programming, book and solutions, by Hadley Wickham and others
 
-- `CSE390A` - System and Software Tools (taught by Ruth E. Anderson). Well-polished lectures and homework on Unix /Git ecosystem. [https://github.com/ldfaiztt/CSE390A](https://github.com/ldfaiztt/CSE390A)
+- [R Cookbook, 2nd Edition](https://rc2e.com) - statistics-oriented R introduction, by James Long and Paul Teetor
 
-- `d3graphTheory` - Interactive webapp meant to be used as graph theory tutorials. Topics include: "Vertices and Edges", "Order and Size of a Graph", "Degree of a Vertex", "Degree Sequence of a Graph", "Graphic Sequence", "Havel-Hakimi Algorithm", "Pigeonhole Principle", "Regular Graph", "Complete Graph", "Bipartite Graph", "Complete Bipartite Graph", "Walk", "Open vs Closed Walks", "Connectivity", "Eulerian Circuit", "Eulerian Trail". Web-site [https://mrpandey.github.io/d3graphTheory/](https://mrpandey.github.io/d3graphTheory/) and GitHub [https://github.com/mrpandey/d3graphTheory](https://github.com/mrpandey/d3graphTheory)
+- [Efficient R programming](https://bookdown.org/csgillespie/efficientR/) - advanced concepts for efficient (R) programming, by Colin Gillespie & Robin Lovelace
 
-- `data_science` - "Path to a free self-taught education in Data Science!" - Open Source Society University, a collection of free online courses in logical order of learning data science. Massive list of courses, from linear algebra and calculus to R/Python programming/machine learning. [https://github.com/open-source-society/data-science](https://github.com/open-source-society/data-science)
+- [Mastering Shiny](https://mastering-shiny.org/) book by Hadley Wickham. [GitHub](https://github.com/jcheng5/shiny-book)
 
-- `data-science-seminar` - Topics In Data Science. Presentations and exercises reviewing classical statistics/data analysis books, from Waldron lab. https://github.com/waldronlab/data-science-seminar
+- [Yet another ‘R for Data Science’ study guide](https://brshallo.github.io/r4ds_solutions/), by Bryan Shalloway. Tidyverse-oriented introduction to R
 
-- `data-science-at-the-command-line` - "Data Science at the Command Line" by Jeroen Janssens, GitHub repository [https://github.com/jeroenjanssens/data-science-at-the-command-line](https://github.com/jeroenjanssens/data-science-at-the-command-line) and an online book [https://www.datascienceatthecommandline.com/](https://www.datascienceatthecommandline.com/)
+- [One Page R](https://togaware.com/onepager/) book "Data Science Quick Start: Knowledge Discovery Through R" by Togaware, includes pdf slides and R code templates for various machine learning tasks
 
-- `datasci2017` - THRIV Data Science course by Stephen Turner. Comprehensive coverage from R/RStudio introduction, RMarkdown, dplyr, ggplot2, shiny to all practical and statistical aspects of data cleaning, visualization, predictive modeling, survival analysis. Course material: [https://github.com/thriv/datasci2017](https://github.com/thriv/datasci2017), course web site: [http://bioconnector.org/workshops/index.html])http://bioconnector.org/workshops/index.html
+- [Data Analysis and Prediction Algorithms with R](https://rafalab.github.io/dsbook/) book by Rafael Irizarry. Data science, statistics topics in R. [GitHub](https://github.com/rafalab/dsbook). [Old version](https://genomicsclass.github.io/book/), [Labs](https://github.com/genomicsclass/labs), and [Videos](http://lorainelab.org/statistics-and-r-for-the-life-sciences/)
 
-- `DataScienceSpecialization` - Course materials for the Data Science Specialization from JHU folks. Detailed lectures on each topic. [https://github.com/DataScienceSpecialization/courses](https://github.com/DataScienceSpecialization/courses)
+- [R & Bioconductor Manual](http://manuals.bioinformatics.ucr.edu/home/R_BioCondManual) - One of the best R manual to brush up all major steps in data analysis/visualization. And links to other resources there. By Thomas Girke, UC Riverside
 
-- `dataviz-course-archive` - Archive of lesson material from an online course at Worcester Polytechnic Institute, vith videos. GitHub, https://github.com/curran/dataviz-course-archive, course web site, https://curran.github.io/dataviz-course-archive/
+- [RProgrammingForResearch](https://github.com/geanders/RProgrammingForResearch) - course notes for R Programming for Research. R learning from ground up to tidyverse, with lectures, homeworks, data, source files
 
-- `ds-cheatsheets` - List of Data Science Cheatsheets to rule the world. Business, Python, R, Math and Calculus, Big Data, Machine Learning, Deep Learning, SQL, Data Visualization, Data Science. [https://github.com/FavioVazquez/ds-cheatsheets](https://github.com/FavioVazquez/ds-cheatsheets)
+- [biostat561](https://github.com/adw96/biostat561) - Computational Skills for Biostatistics, from version control, R programming, ggplot, shiny, to Unix, LaTeX, Markdown, Python. By Amy Willis
 
-- `ds4stats` - Data Science for Statisticians Workshop. Tidyverse, Data wrangling, visualization, ggplot2, machine learning. Rmds, lab exercises, links to readi-to-view lectures. https://github.com/rafalab/ds4stats
+- [THRIV datasci 2018](https://thriv.github.io/biodatasci2018/) - THRIV Data Science course by Stephen Turner. Comprehensive coverage from R/RStudio introduction, RMarkdown, dplyr, ggplot2, shiny to all practical and statistical aspects of data cleaning, visualization, predictive modeling, survival analysis. [Workshops](https://stephenturner.github.io/workshops/index.html)
 
-- `efficientR` - Efficient R programming: a book by Colin Gillespie, [https://github.com/csgillespie/efficientR](https://github.com/csgillespie/efficientR)
+- [Introduction to Data Science](https://datasciencelabs.github.io/) by Rafael Irizarry and Stephanie Hicks. The GitHub repo https://github.com/datasciencelabs/2020 has the latest course material, previous material for the course is available by changing the year number, e.g. https://github.com/datasciencelabs/2019. [Data for the course](https://github.com/datasciencelabs/data)
 
-- `hopr` - Hands-On Programming with R, a book that teaches how to program in R, with hands-on examples. GitHub [https://github.com/rstudio-education/hopr](https://github.com/rstudio-education/hopr). Read the book at [https://rstudio-education.github.io/hopr](https://rstudio-education.github.io/hopr)
+- [R Programming for Data Science](https://leanpub.com/rprogramming) by Roger Peng. Fundamentals of R programming and data science. [GitHub](https://github.com/rdpeng/rprogdatascience/)
 
-- `Intro-to-R-extended` - Intro to R materials for six hour workshop, https://github.com/mistrm82/Intro-to-R-extended
+- [DataScienceSpecialization](https://github.com/DataScienceSpecialization/courses) - Course materials for the Data Science Specialization from JHU folks. Detailed lectures on each topic
 
-- `IntroDataSci` - "CMSC320: Introduction to Data Science" course by Hector Corrada Bravo, https://github.com/hcorrada/IntroDataSci
+- [ds4stats](https://github.com/rafalab/ds4stats) - Data Science for Statisticians Workshop. Tidyverse, Data wrangling, visualization, ggplot2, machine learning. Rmds, lab exercises, links to ready-to-view lectures. 
 
-- `MLPB` - Machine Learning Problem Bible, problems and solutions in R. https://github.com/ben519/MLPB
+- [master-the-tidyverse](https://github.com/rstudio-education/master-the-tidyverse/) - the Master the Tidyverse Workshop, `tidyverse`-oriented tutorials. [Instructor's material](https://github.com/rstudio-education/master-the-tidyverse-instructors)
 
-- `master-the-tidyverse` - the Master the Tidyverse Workshop, `tidyverse`-oriented tutorials. Workshop itself [https://github.com/rstudio-education/master-the-tidyverse/](https://github.com/rstudio-education/master-the-tidyverse/) and instructor's material [https://github.com/rstudio-education/master-the-tidyverse-instructors](https://github.com/rstudio-education/master-the-tidyverse-instructors)
+- [Statistical Inference via Data Science, A ModernDive into R and the Tidyverse](https://moderndive.com/)  - bookdown, statistics and data science using tidyverse. [GitHub](https://github.com/moderndive/moderndive_book)
 
-- `moderndive_book` - ModernDive: An Introduction to Statistical and Data Sciences via R. GitHub [https://github.com/moderndive/moderndive_book](https://github.com/moderndive/moderndive_book) and bookdown [http://www.moderndive.com/](http://www.moderndive.com/)
+- [Statistical Thinking for the 21st Century](https://statsthinking21.org/) - bookdown, statistics theory illustrated with R. [GitHub material](https://github.com/statsthinking21)
 
-- `mro` - "Effective graphs with Microsoft R Open" open book. [Blog post about the book](http://www.r-bloggers.com/free-e-book-effective-graphs-with-microsoft-r-open/), [Book, PDF](http://www.joyce-robbins.com/wp-content/uploads/2016/04/effectivegraphsmro1.pdf), [Git](https://github.com/nbrgraphs/mro)
+- [R (BGU course)](http://www.john-ros.com/Rcourse/) by Jonathan D. Rosenblatt. From R basics to regression, machine learning, graphics, shiny, advanced computing. [GitHub](https://github.com/johnros/RAMR-R-Course)
 
-- `MTEC_CADi_2017` - "Data Science using R for Humanities and Social Science" by Hector Corrada Bravo. https://github.com/hcorrada/MTEC_CADi_2017. The repo contains `notes/_book` folder with an excellent bookdown of the lecture notes
+- [online-courses](https://github.com/rsquaredacademy-education/online-courses/) - Free courses by RSquareAcademy. From data import to tidyverse, web scraping, regex, databases. Videos, slides, code, data. 
 
-- `psych10-book` - Source files for Statistical Thinking For the 21st Century, [https://github.com/poldrack/psych10-book](https://github.com/poldrack/psych10-book), the book itself, [http://thinkstats.org/](http://thinkstats.org/)
+- [SISBID](https://github.com/SISBID) - several modules covering various aspects of data science. Summer Institute in Statistics for Big Data. Lectures, exercises, data. [Module 1, Big Data](https://github.com/SISBID/Module1), [Module 2, Visualization of Biomedical Big Data](https://github.com/SISBID/Module2), [Module 3, Reproducible research](https://github.com/SISBID/Module3), [Module 4](https://github.com/SISBID/Module4), [Module 5](https://github.com/SISBID/Module5)
 
-- `RAMR-R-Course` - R (BGU course) by Jonathan D. Rosenblatt. From R basics to regression, machine learning, graphics, shiny, advanced computing. GitHub, https://github.com/johnros/RAMR-R-Course, bookdown, http://www.john-ros.com/Rcourse/
+- [Ted Laderas](https://laderast.github.io/) and his [Ready for R](https://ready4r.netlify.app/) course
 
-- `og-aws` - Amazon Web Services — a practical guide [https://github.com/open-guides/og-aws](https://github.com/open-guides/og-aws)
+- [R for the Rest of Us](https://rfortherestofus.com) free R courses by David Keyes.
 
-- `online-courses` - Free courses by RSquareAcademy. From data import to tidyverse, web scraping, regex, databases. Videos, slides, code, data. https://github.com/rsquaredacademy-education/online-courses/
+- [Text Mining with R](http://tidytextmining.com/), by Julia Silge and David Robinson
 
-- `GCB` - machine learning course by Casey Greene, https://github.com/greenelab/GCB535
+- [Fundamentals of Data Visualization](https://serialmentor.com/dataviz/), by Claus O. Wilke
 
-- `Rcourse` - Class notes for my "R" course at Ben Gurion University. https://github.com/johnros/Rcourse, http://www.john-ros.com/Rcourse/
+- [Effective graphs with Microsoft R Open](http://www.joyce-robbins.com/wp-content/uploads/2016/04/effectivegraphsmro1.pdf) - plots using base R graphics. [Blog post about the book](http://www.r-bloggers.com/free-e-book-effective-graphs-with-microsoft-r-open/), [GitHub](https://github.com/nbrgraphs/mro)
 
-- `rcpp4everyone_en` - Rcpp for everyone. Book, https://teuder.github.io/rcpp4everyone_en/, Source, https://github.com/teuder/rcpp4everyone_en
+- [idem_viz](https://github.com/jschoeley/idem_viz) - Materials for the course IDEM 181 "Visualizing Data" 
 
-- `readingpapers` - Jeff Leek' guide to [reading scientific papers](https://github.com/jtleek/readingpapers). The page has references to his other guides ["How to write your first paper"](https://github.com/jtleek/firstpaper), ["How to review a paper"](https://github.com/jtleek/reviews), ["How to share data"](https://github.com/jtleek/datasharing), ["How to write an R package"](https://github.com/jtleek/rpackages)
+- [Network visualization with R](https://github.com/kateto/R-Network-Visualization-Workshop), workshop by Katherine Ognyanova. [Blog post](http://kateto.net/network-visualization)
 
-- `rprogdatascience` -  "R Programming for Data Science" by Roger Peng. [https://leanpub.com/rprogramming](https://leanpub.com/rprogramming) and DIY version on GitHub [https://github.com/rdpeng/rprogdatascience/]
+- [bigdataclass](https://github.com/rstudio/bigdataclass) - Big Data with R class by RStudio
 
-- `shiny-book` - "Mastering Shiny" book by Joe Cheng, `./_build.sh` to build it. https://github.com/jcheng5/shiny-book
 
-- `SISBID` - several modules covering various aspects of data science. Summer Institute in Statistics for Big Data 
-    - `Module 1` - https://github.com/SISBID/Module1. Big Data
-    - `Module 2` - https://github.com/SISBID/Module2. Visualization of Biomedical Big Data
-    - `Module 3` - https://github.com/SISBID/Module3. Reproducible research by Keith Baggerly and Roger Peng
-    - `Module 4` - https://github.com/SISBID/Module4.
-    - `Module 5` - https://github.com/SISBID/Module5.
 
-- `stat133-cheatsheets` - Cheat sheets on R, tidyverse, shiny, git, and more, [https://github.com/ucb-stat133/stat133-cheatsheets](https://github.com/ucb-stat133/stat133-cheatsheets)
+## R Package Development
 
-- `Statistical_Rethinking_with_brms_ggplot2_and_the_tidyverse` - Statistical rethinking book reimplemented using the `brms` Bayesian Regression package and ggplot2. https://github.com/ASKurz/Statistical_Rethinking_with_brms_ggplot2_and_the_tidyverse
+- [Package Building](http://laderast.github.io/2019/02/12/package-building-description-namespace/) - How `DESCRIPTION`, `NAMESPACE`, `roxygen`, and `devtools::document` work together. By Ted Laderas
+- [Automate testing of your R package using Travis CI, Codecov, and testthat](https://jef.works/blog/2019/02/17/automate-testing-of-your-R-package/), by Jean Fan
+- [MangoTheCat/goodpractice](https://github.com/MangoTheCat/goodpractice) - An R package to check for good coding practices when building R packages. Syntax to avoid, package structure, code complexity, code formatting, etc. 
+- [pkgdown](https://pkgdown.r-lib.org/) - an R package for making a website for your package
+- [Hexmake](https://connect.thinkr.fr/hexmake/) - This app allows the user to build its own hex stickers. [RStudio note](https://community.rstudio.com/t/hexmake-2020-shiny-contest-submission/59122)
+- [GuangchuangYu/hexSticker](https://github.com/GuangchuangYu/hexSticker) - Hexagon sticker in R, R package
+- [neurodata/hyppo](https://github.com/neurodata/hyppo) - an example of well-documented software, informative README, badges
 
-- `teach-r` - List of Resources for Teaching R. https://github.com/coatless/teach-r
+### Bioconductor
 
-- `Tools4RR` - Tools for reproducible research by Karl Broman [http://kbroman.org/Tools4RR/](http://kbroman.org/Tools4RR/), [Schedule](http://kbroman.org/Tools4RR/pages/schedule.html), [lots of educational links](http://kbroman.org/Tools4RR/pages/resources.html), [Git repository](https://github.com/kbroman/Tools4RR/tree/master)
+- [Steps to contribute packages to Bioconductor](https://github.com/Bioconductor/Contributions)
+- [Common Bioconductor Methods and Classes](http://bioconductor.org/developers/how-to/commonMethodsAndClasses/)
+- [Develop Bioconductor packages with Docker container](https://divingintogeneticsandgenomics.rbind.io/post/develop-bioconductor-packages-with-docker-container/)
+    - [Bioconductor/bioconductor_full](https://github.com/Bioconductor/bioconductor_full) - Docker Images which include a complete installation of all software needed to build all Bioconductor packages
+- [BiocPkgTools](https://bioconductor.org/packages/BiocPkgTools/) - R package for queueing Bioconductor package statistics, downloads, dependencies, visualization as graphs.
+    - Su, Shian, Vincent J. Carey, Lori Shepherd, Matthew Ritchie, Martin T. Morgan, and Sean Davis. “[BiocPkgTools: Toolkit for Mining the Bioconductor Package Ecosystem](https://doi.org/10.12688/f1000research.19410.1).” F1000Research 8 (May 29, 2019)
+- [How to run a Bioconductor Workshop on a Google Cloud Instance](https://gist.github.com/seandavi/5da4a73d94bc24236cf204196feddc85) by Sean Davis
 
-- `user2016-tutorial-shiny` - Shiny tutorial, https://github.com/gaborcsardi/user2016-tutorial-shiny
+- [seandavi/BuildABiocWorkshop2020](https://github.com/seandavi/BuildABiocWorkshop2020) - template for building a bioconductor workshop package using GitHub actions
 
-# Books
+## R Data Analysis
 
-- [**Circular Visualization in R**](https://jokergoo.github.io/circlize_book/book/), by Zuguang Gu
+- [autoEDA-resources](https://github.com/mstaniak/autoEDA-resources) - A list of software and papers related to automatic/fast Exploratory Data Analysis
 
-- [**R for Data Science**](https://r4ds.had.co.nz/), by Garrett Grolemund and Hadley Wickham
 
-- [**Yet another ‘R for Data Science’ study guide**](https://brshallo.github.io/r4ds_solutions/), by Bryan Shalloway
+### Imputation
 
-- [**Fundamentals of Data Visualization**](https://serialmentor.com/dataviz/), by Claus O. Wilke
+- [missMDA](https://CRAN.R-project.org/package=missMDA) - Imputation of incomplete continuous or categorical datasets; Missing values are imputed with a principal component analysis (PCA), a multiple correspondence analysis (MCA) model or a multiple factor analysis (MFA) model; Perform multiple imputation with and in PCA or MCA. By Francois Husson
+    - Josse, Julie, and François Husson. “[MissMDA : A Package for Handling Missing Values in Multivariate Data Analysis](https://doi.org/10.18637/jss.v070.i01).” Journal of Statistical Software 70, no. 1 (2016). 
 
-- [**Text Mining with R**](http://tidytextmining.com/), by Julia Silge and David Robinson
+- [imputeTS](https://CRAN.R-project.org/package=imputeTS) - Imputation (replacement) of missing values in univariate time series. Offers several imputation functions and missing data plots. Available imputation algorithms include: 'Mean', 'LOCF', 'Interpolation', 'Moving Average', 'Seasonal Decomposition', 'Kalman Smoothing on Structural Time Series models', 'Kalman Smoothing on ARIMA models'
+    - Moritz, Steffen, and Thomas Bartz-Beielstein. “[ImputeTS: Time Series Missing Value Imputation in R](https://journal.r-project.org/archive/2017/RJ-2017-009/index.html).” The R Journal, 2017
 
+- [softImpute](https://CRAN.R-project.org/package=softImpute) - Matrix Completion via Iterative Soft-Thresholded SVD. By Trevor Hastie
+    - Hastie, Trevor, Rahul Mazumder, Jason Lee, and Reza Zadeh. “[Matrix Completion and Low-Rank SVD via Fast Alternating Least Squares](http://arxiv.org/abs/1410.2596).” ArXiv:1410.2596 [Stat], October 9, 2014. 
 
+- [missForest](https://CRAN.R-project.org/package=missForest) - Nonparametric Missing Value Imputation using Random Forest
+    - Stekhoven, D. J., and P. Buhlmann. “[MissForest--Non-Parametric Missing Value Imputation for Mixed-Type Data](https://doi.org/10.1093/bioinformatics/btr597).” Bioinformatics 28, no. 1 (January 1, 2012)
 
-# Misc
+- [mice](https://CRAN.R-project.org/package=mice) - Multivariate Imputation using Fully Conditional Specification (FCS). By Stef van Buuren
+    - Buuren, Stef van, and Karin Groothuis-Oudshoorn. “[Mice : Multivariate Imputation by Chained Equations in R](https://doi.org/10.18637/jss.v045.i03).” Journal of Statistical Software 45, no. 3 (2011). 
 
-- Code and Resources for "Feature Engineering and Selection: A Practical Approach for Predictive Models" by Kuhn and Johnson, https://bookdown.org/max/FES, GitHub, https://github.com/topepo/FES
 
-- The learnr tutorials in RStudio Cloud's primers, https://github.com/rstudio-education/primers, avaliable on RStudio Cloud, https://rstudio.cloud/projects
+### Visualization
 
-- John DeNero 2017, Data 8: The Foundation of Data Science course, Berkeley. http://data8.org/sp17/
+- [circlize](https://CRAN.R-project.org/package=circlize) - Circular Visualization in R. [Documentation](http://zuguang.de/circlize_book/book/index.html)
 
-- List of courses teaching R, [https://github.com/rstudio-education/rstats-ed](https://github.com/rstudio-education/rstats-ed)
+- [UpSetR](https://CRAN.R-project.org/package=UpSetR) - stretched and aligned Venn and Euler diagrams. [Slides by Nils Gehlenborg](https://www.bioconductor.org/help/course-materials/2017/BioC2017/Day1/InvitedSpeakers/relaxation-techniques-upset-data-scientist.pdf)
+    - Conway, Jake R, Alexander Lex, and Nils Gehlenborg. “[UpSetR: An R Package for the Visualization of Intersecting Sets and Their Properties](https://doi.org/10.1093/bioinformatics/btx364).” Bioinformatics 33, no. 18 (September 15, 2017)
 
-- "OnePageR", book "Data Science Quick Start: Knowledge Discovery Through R" by Togaware, https://togaware.com/onepager/, includes pdf slides and R code templates for various machine learning tasks
+- [ggfortify](https://CRAN.R-project.org/package=ggfortify) - Enhanced plotting for commonly usedstatistics, such as GLM, time series, PCA families, clustering and survival analysis
 
-- Free Data Science Books. [http://www.learndatasci.com/free-books/](http://www.learndatasci.com/free-books/)
+- [ggord](https://github.com/fawda123/ggord) - PCA and other dim reduction methods plotting with ellipses
 
-- "Version Control by Example" book introducinb Git, Mercurial, and the whole concept. [Book, PDF](http://ericsink.com/vcbe/)
+- [PCAtools](https://bioconductor.org/packages/PCAtools/) - set of tools performing common PCA-related tasks, by Kevin Blighe and Aaron Lun. [GitHub](https://github.com/kevinblighe/PCAtools)
 
-- Tutorial: Scalable R on Spark with SparkR, sparklyr and RevoScaleR [http://blog.revolutionanalytics.com/2016/10/tutorial-scalable-r-on-spark.html](http://blog.revolutionanalytics.com/2016/10/tutorial-scalable-r-on-spark.html)
+- [visNetwork](https://CRAN.R-project.org/package=visNetwork) - an R package for network visualization, using vis.js javascript library. 
 
-- Basics of R, with short and conscise examples, "A Complete Tutorial to learn Data Science in R from Scratch", [http://www.analyticsvidhya.com/blog/2016/02/complete-tutorial-learn-data-science-scratch/](http://www.analyticsvidhya.com/blog/2016/02/complete-tutorial-learn-data-science-scratch/)
+- [DiagrammeR](https://github.com/rich-iannone/DiagrammeR) - Graph and network visualization using tabular data in R. 
 
-- "R & Bioconductor Manual" by Thomas Girke, UC Riverside [http://manuals.bioinformatics.ucr.edu/home/R_BioCondManual](http://manuals.bioinformatics.ucr.edu/home/R_BioCondManual). One of the best R manual to brush up all major steps in data analysis/visualization. And links to other resources there.
+- [How to Create a Bar Chart Race in R](https://michaeltoth.me/how-to-create-a-bar-chart-race-in-r-mapping-united-states-city-population-1790-2010.html) - Mapping United States City Population 1790-2010. 
 
-- Network visualization with R, blog post [http://kateto.net/network-visualization](http://kateto.net/network-visualization), GitHub [https://github.com/kateto/R-Network-Visualization-Workshop](https://github.com/kateto/R-Network-Visualization-Workshop)
+- [Simple Gantt charts in R with ggplot2 and Microsoft Excel](https://www.molecularecologist.com/2019/01/simple-gantt-charts-in-r-with-ggplot2-and-the-tidyverse/)
 
-- D3 in Depth, [http://d3indepth.com/](http://d3indepth.com/)
+
+### Dimensionality reduction
+
+- [GLM-PCA](https://CRAN.R-project.org/package=glmpca) - multinomial distribution-based analysis methods for UMI counts in scRNA-seq data. Details of scRNA-seq data properties, analysis steps. [GitHub](https://github.com/willtownes/glmpca)
+    - Townes, F. William, Stephanie C. Hicks, Martin J. Aryee, and Rafael A. Irizarry. “[Feature Selection and Dimension Reduction for Single Cell RNA-Seq Based on a Multinomial Model](https://doi.org/10.1101/574574).” BioRxiv, March 11, 2019.
+
+- [PCA course using FactoMineR](https://francoishusson.wordpress.com/2017/07/13/course-on-pca-with-factominer/), with videos, by François Husson, the creator of [FactoMineR](https://CRAN.R-project.org/package=FactoMineR) - Multivariate Exploratory Data Analysis and Data Mining
+    - [Multiple Factor Analysis to analyse several data tables](https://francoishusson.wordpress.com/2017/07/18/multiple-factor-analysis-to-analyse-several-data-tables/)
+    - [Correspondence Analysis with FactoMineR](https://francoishusson.wordpress.com/2017/07/13/correspondence-analysis-with-factominer/)
+    - [Multiple Correspondence Analysis with FactoMineR](https://francoishusson.wordpress.com/2017/07/18/multiple-correspondence-analysis-with-factominer/)
+
+## R Misc
+
+- [containerit](https://github.com/o2r-project/containerit) - an R package to create a Docker file from R session. Similar functionality provided by `dockerfiler`, `liftr`, `automagic`. 
+    - Nüst, Daniel, and Matthias Hinz. “[Containerit: Generating Dockerfiles for Reproducible Research with R](https://doi.org/10.21105/joss.01603).” Journal of Open Source Software 4, no. 40 (August 21, 2019)
+
+- [disk.frame](https://CRAN.R-project.org/package=disk.frame) - an R package for larger-than-RAM Disk-Based Data Manipulation Framework. [blog post about disk.frame usage](https://www.brodrigues.co/blog/2019-09-03-disk_frame/)
+
+- [ppcor](https://CRAN.R-project.org/package=ppcor) - Partial and Semi-Partial (Part) Correlation
+
+- [corpcor](https://CRAN.R-project.org/package=corpcor) - Efficient Estimation of Covariance and (Partial) Correlation
+
+- [ymlthis](https://ymlthis.r-lib.org/index.html) - write YAML for R Markdown, bookdown, blogdown, and more. [The YAML Fieldguide](http://ymlthis.r-lib.org/articles/yaml-fieldguide.html)
+
+- [googledrive](https://googledrive.tidyverse.org) - an R package interface to Google Drive. Alternative: Google Drive direct download of big files, [gdown.pl](https://github.com/circulosmeos/gdown.pl)
+
+- [philentropy](https://CRAN.R-project.org/package=philentropy) - Similarity and Distance Quantification Between Probability Functions. Computes 46 optimized distance and similarity measures for comparing probability functions
+
+- [mkdocs](http://www.mkdocs.org) Project documentation with Markdown, [GitHub](https://github.com/mkdocs/mkdocs/)
+
+- [gt](https://github.com/rstudio/gt) - Easily generate information-rich, publication-quality tables from R
+
+- [gtsummary](https://github.com/ddsjoberg/gtsummary) Presentation-Ready Data Summary and Analytic Result Tables
+
+
+## R tips & tricks
+
+- Convert continuous to categorical value
+
+````
+data(iris)
+vari <- iris$Sepal.Length
+nb.clusters <- 3
+breaks <- quantile(vari, seq(0,1,1/nb.clusters))
+Xqual <- cut(vari,breaks, include.lowest=TRUE)
+summary(Xqual)
+````
+
+- Barplot with StdErr using standard R graphics
+
+````
+dat = agridat::lasrosas.corn
+means.nf = tapply(dat$yield, INDEX=dat$nf, FUN=mean)  
+StdErr.nf = tapply(dat$yield, INDEX=dat$nf, FUN= std.error)  
+BP = barplot(means.nf, ylim=c(0,max(means.nf)+10))  
+segments(BP, means.nf - (2*StdErr.nf), BP, means.nf + (2*StdErr.nf), lwd = 1.5)  
+arrows(BP, means.nf - (2*StdErr.nf), BP,  means.nf + (2*StdErr.nf), lwd = 1.5, angle = 90,  code = 3, length = 0.05)  
+````
+
+- HDF5Array
+````
+library(HDF5Array)
+a0 <- array(runif(15000000), dim=c(10000, 300, 5))
+A0 <- as(a0, "HDF5Array")  
+library(pryr) 
+object_size(A0)
+#> 1.94 kB
+object_size(a0)
+#> 120 MB #rstats
+````
+
+- Convert a vector to normally distributed one
+````
+interactions <- log2(interactions) # If highly right-skewed, log2-transform beforehand
+# Inverse normal conversion
+interactions <- sapply(interactions, function(x) {
+  rank <- rank(x, na.last = "keep")
+  P <- (rank - 0.5) / length(x[ !is.na(x)] )
+  x <- qnorm(P)
+})
+````
+
+## R questions
+
+- Why vcd package is used? vcd package provides different methods for visualizing multivariate categorical data.
+- What is iPlots? It is a package which provide bar plots, mosaic plots, box plots, parallel plots, scatter plots and histograms.
+- What is fitdistr() function? It is used to provide the maximum likelihood fitting of univariate distributions. It is defined under the MASS package.
+- Define loglm() function. Loglm() function is used to create log-linear models.
+- How to create scatterplot matrices? Pair() or splom() function is used for create scatterplot matrices.
+- Define leaps(). It is used to perform the all-subsets regression and it is defined under the leaps package.
+- Define cluster.stats(). It is define in fpc package which provide a method for comparing the similarity of two clusters solution using different validation criteria.
