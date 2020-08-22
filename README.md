@@ -90,6 +90,8 @@ R learning and data analysis resources. Please, [contribute and get in touch](CO
 
 - [R Programming for Data Science](https://leanpub.com/rprogramming) by Roger Peng. Fundamentals of R programming and data science. [GitHub](https://github.com/rdpeng/rprogdatascience/)
 
+- [Mastering Software Development in R](https://bookdown.org/rdpeng/RProgDA/), book by Roger D. Peng, Sean Kross, and Brooke Anderson. From R basics to package development
+
 - [DataScienceSpecialization](https://github.com/DataScienceSpecialization/courses) - Course materials for the Data Science Specialization from JHU folks. Detailed lectures on each topic
 
 - [ds4stats](https://github.com/rafalab/ds4stats) - Data Science for Statisticians Workshop. Tidyverse, Data wrangling, visualization, ggplot2, machine learning. Rmds, lab exercises, links to ready-to-view lectures. 
