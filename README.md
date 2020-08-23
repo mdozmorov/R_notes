@@ -70,6 +70,8 @@ R learning and data analysis resources. Please, [contribute and get in touch](CO
 
 - [Efficient R programming](https://bookdown.org/csgillespie/efficientR/) - advanced concepts for efficient (R) programming, by Colin Gillespie & Robin Lovelace
 
+- [RMarkdown from RStudio](https://rmarkdown.rstudio.com/lesson-1.html) - illustrated guide to RMarkdown 
+
 - [Rmarkdown for Scientists](https://rmd4sci.njtierney.com/) book by Nicholas Tierney. [GitHub](https://github.com/njtierney/rmd4sci)
 
 - [Mastering Shiny](https://mastering-shiny.org/) book by Hadley Wickham. [GitHub](https://github.com/jcheng5/shiny-book)
