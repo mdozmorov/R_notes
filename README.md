@@ -146,6 +146,7 @@ R learning and data analysis resources. Please, [contribute and get in touch](CO
 
 ### Bioconductor
 
+- [Developer's page](https://www.bioconductor.org/developers/)
 - [Steps to contribute packages to Bioconductor](https://github.com/Bioconductor/Contributions)
 - [Common Bioconductor Methods and Classes](http://bioconductor.org/developers/how-to/commonMethodsAndClasses/)
 - [Develop Bioconductor packages with Docker container](https://divingintogeneticsandgenomics.rbind.io/post/develop-bioconductor-packages-with-docker-container/)
