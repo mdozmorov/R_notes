@@ -155,9 +155,11 @@ R learning and data analysis resources. Please, [contribute and get in touch](CO
     - Su, Shian, Vincent J. Carey, Lori Shepherd, Matthew Ritchie, Martin T. Morgan, and Sean Davis. “[BiocPkgTools: Toolkit for Mining the Bioconductor Package Ecosystem](https://doi.org/10.12688/f1000research.19410.1).” F1000Research 8 (May 29, 2019)
 - [The package build reports](https://www.bioconductor.org/checkResults/)
 
+- [seandavi/BuildABiocWorkshop2020](https://github.com/seandavi/BuildABiocWorkshop2020) - template for building a bioconductor workshop package using GitHub actions
+
 - [How to run a Bioconductor Workshop on a Google Cloud Instance](https://gist.github.com/seandavi/5da4a73d94bc24236cf204196feddc85) by Sean Davis
 
-- [seandavi/BuildABiocWorkshop2020](https://github.com/seandavi/BuildABiocWorkshop2020) - template for building a bioconductor workshop package using GitHub actions
+- [Orchestra](https://github.com/seandavi/Orchestra) - workshop platform provider for running docker containers on kubernetes, by Sean Davis
 
 ## R Data Analysis
 
