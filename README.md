@@ -118,6 +118,8 @@ R learning and data analysis resources. Please, [contribute and get in touch](CO
 
 - [Ted Laderas](https://laderast.github.io/) and his [Ready for R](https://ready4r.netlify.app/) course
 
+- [R Programming For Research](https://geanders.github.io/RProgrammingForResearch/index.html) course by Brooke Anderson, Rachel Severson, and Nicholas Good, Colorado State University. Basic, intermediate, and advanced data analysis in R. [GitHub](https://github.com/geanders/RProgrammingForResearch), [Youtube playlist](https://www.youtube.com/playlist?list=PLuGPtwgRXxqK1d-3V2MKCad24h-v75k8P) with short videos on R-related topics
+
 - [R for the Rest of Us](https://rfortherestofus.com) free R courses by David Keyes.
 
 - [Text Mining with R](http://tidytextmining.com/), by Julia Silge and David Robinson
