@@ -116,7 +116,7 @@ R learning and data analysis resources. Please, [contribute and get in touch](CO
 
 - [SISBID](https://github.com/SISBID) - several modules covering various aspects of data science. Summer Institute in Statistics for Big Data. Lectures, exercises, data. [Module 1, Big Data](https://github.com/SISBID/Module1), [Module 2, Visualization of Biomedical Big Data](https://github.com/SISBID/Module2), [Module 3, Reproducible research](https://github.com/SISBID/Module3), [Module 4](https://github.com/SISBID/Module4), [Module 5](https://github.com/SISBID/Module5)
 
-- [Ted Laderas](https://laderast.github.io/) and his [Ready for R](https://ready4r.netlify.app/) course
+- [Ted Laderas](https://laderast.github.io/) and his [Ready for R](https://ready4r.netlify.app/) course, the accompanying [Ready for R: Notebook Reference](https://ready4r.netlify.app/labbook/) bookdown, and the [R Bootcamp](https://r-bootcamp.netlify.app) tidyverse exercises
 
 - [R Programming For Research](https://geanders.github.io/RProgrammingForResearch/index.html) course by Brooke Anderson, Rachel Severson, and Nicholas Good, Colorado State University. Basic, intermediate, and advanced data analysis in R. [GitHub](https://github.com/geanders/RProgrammingForResearch), [Youtube playlist](https://www.youtube.com/playlist?list=PLuGPtwgRXxqK1d-3V2MKCad24h-v75k8P) with short videos on R-related topics
 
