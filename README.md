@@ -43,6 +43,7 @@ R learning and data analysis resources. Please, [contribute and get in touch](CO
 
 - [awesome-rshiny](https://github.com/grabear/awesome-rshiny) - a list of resources to learn R Shiny
 
+- [Awesome ggplot2](https://github.com/erikgahner/awesome-ggplot2) - A curated list of awesome ggplot2 tutorials, packages etc.
 
 ## Courses
 
