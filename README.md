@@ -35,6 +35,8 @@ R learning and data analysis resources. Please, [contribute and get in touch](CO
 
 - [RStudio Cheatsheets](https://www.rstudio.com/resources/cheatsheets/) - PDFs, PowerPoint, Keynote formats. [GitHub](https://github.com/rstudio/cheatsheets)
 
+- [RStudio Webinars](https://github.com/rstudio/webinars) - Code and slides for RStudio webinars
+
 - [stat133-cheatsheets](https://github.com/ucb-stat133/stat133-cheatsheets) - Cheat sheets on R, RStudio, tidyverse, ggplot2, plotly,  shiny, git, and moreucb-stat133/stat133-cheatsheets)
 
 - [ardeeshany/Parallel_Computing](https://github.com/ardeeshany/Parallel_Computing) - A CheatSheet for Parallel Computation in R
