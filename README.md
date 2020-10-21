@@ -179,7 +179,7 @@ R learning and data analysis resources. Please, [contribute and get in touch](CO
 - [imputeTS](https://CRAN.R-project.org/package=imputeTS) - Imputation (replacement) of missing values in univariate time series. Offers several imputation functions and missing data plots. Available imputation algorithms include: 'Mean', 'LOCF', 'Interpolation', 'Moving Average', 'Seasonal Decomposition', 'Kalman Smoothing on Structural Time Series models', 'Kalman Smoothing on ARIMA models'
     - Moritz, Steffen, and Thomas Bartz-Beielstein. “[ImputeTS: Time Series Missing Value Imputation in R](https://journal.r-project.org/archive/2017/RJ-2017-009/index.html).” The R Journal, 2017
 
-- [softImpute](https://CRAN.R-project.org/package=softImpute) - Matrix Completion via Iterative Soft-Thresholded SVD. By Trevor Hastie
+- [softImpute](https://CRAN.R-project.org/package=softImpute) - matrix completion (imputation). A combination of two algorithms, nuclear-norm-regularized matrix approximation and maximum-margin matrix factorization. R package, distributed version using Spark cluster. By Trevor Hastie
     - Hastie, Trevor, Rahul Mazumder, Jason Lee, and Reza Zadeh. “[Matrix Completion and Low-Rank SVD via Fast Alternating Least Squares](http://arxiv.org/abs/1410.2596).” ArXiv:1410.2596 [Stat], October 9, 2014. 
 
 - [missForest](https://CRAN.R-project.org/package=missForest) - Nonparametric Missing Value Imputation using Random Forest
