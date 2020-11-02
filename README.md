@@ -13,6 +13,7 @@ R learning and data analysis resources. Please, [contribute and get in touch](CO
 - [General](#general)
 - [Cheatsheets](#cheatsheets)
 - [Courses](#courses)
+  - [Conference material](#conference-material)
 - [R Package Development](#r-package-development)
   - [Bioconductor](#bioconductor)
 - [R Data Analysis](#r-data-analysis)
@@ -137,6 +138,9 @@ R learning and data analysis resources. Please, [contribute and get in touch](CO
 
 - [bigdataclass](https://github.com/rstudio/bigdataclass) - Big Data with R class by RStudio
 
+### Conference material
+
+- [Bioconductor 2020 workshops](https://bioc2020.bioconductor.org/workshops)
 
 
 ## R Package Development
