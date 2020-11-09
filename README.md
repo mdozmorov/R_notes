@@ -50,6 +50,8 @@ R learning and data analysis resources. Please, [contribute and get in touch](CO
 
 ## Courses
 
+- [learnR4free](https://www.learnr4free.com/en/index.html) - all sorts of resources (books, videos, interactive websites, papers) to learn R. [Tweet](https://twitter.com/icymi_r/status/1325021727412334592?s=20)
+
 - [A very short R introduction](https://cran.r-project.org/doc/contrib/Torfs+Brauer-Short-R-Intro.pdf)
 
 - [Big Book of R](https://bigbookofr.netlify.app/), by Oscar Baruffa. A bookdown bookmarking links to everything R for data science, from basics, visualization, tidyverse to distributed computing, spatial data science, machine learning, and more. [GitHub](https://github.com/oscarbaruffa/BigBookofR)
