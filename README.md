@@ -54,6 +54,8 @@ R learning and data analysis resources. Please, [contribute and get in touch](CO
 
 - [A very short R introduction](https://cran.r-project.org/doc/contrib/Torfs+Brauer-Short-R-Intro.pdf)
 
+- [Data Science: A First Introduction](https://ubc-dsci.github.io/introduction-to-datascience/) - bookdown by Tiffany-Anne Timbers, Trevor Campbell, Melissa Lee. From basics of data wrangling to classification/regression/clustering/statistical inference. [Tweet](https://twitter.com/TiffanyTimbers/status/1339243967917985792?s=20)
+
 - [Big Book of R](https://bigbookofr.netlify.app/), by Oscar Baruffa. A bookdown bookmarking links to everything R for data science, from basics, visualization, tidyverse to distributed computing, spatial data science, machine learning, and more. [GitHub](https://github.com/oscarbaruffa/BigBookofR)
 
 - [A Complete Tutorial to learn Data Science in R from Scratch](http://www.analyticsvidhya.com/blog/2016/02/complete-tutorial-learn-data-science-scratch/) - Basics of R, with short and conscise examples
