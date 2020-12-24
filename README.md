@@ -19,7 +19,7 @@ R learning and data analysis resources. Please, [contribute and get in touch](CO
 - [R Data Analysis](#r-data-analysis)
   - [Imputation](#imputation)
   - [Visualization](#visualization)
-  - [Dimensionality reduction](#dimensionality-reduction)
+  - [Correlation, Dimensionality reduction](#correlation-dimensionality-reduction)
 - [R Misc](#r-misc)
 - [R tips & tricks](#r-tips--tricks)
 - [R questions](#r-questions)
@@ -221,7 +221,9 @@ R learning and data analysis resources. Please, [contribute and get in touch](CO
 - [Simple Gantt charts in R with ggplot2 and Microsoft Excel](https://www.molecularecologist.com/2019/01/simple-gantt-charts-in-r-with-ggplot2-and-the-tidyverse/)
 
 
-### Dimensionality reduction
+### Correlation, Dimensionality reduction
+
+- [bigcor](https://www.rdocumentation.org/packages/propagate/versions/1.0-6/topics/bigcor) - Creating Very Large Correlation/Covariance Matrices. [Tweet](https://twitter.com/neilfws/status/1341602291070038016?s=20)
 
 - [GLM-PCA](https://CRAN.R-project.org/package=glmpca) - multinomial distribution-based analysis methods for UMI counts in scRNA-seq data. Details of scRNA-seq data properties, analysis steps. [GitHub](https://github.com/willtownes/glmpca)
     - Townes, F. William, Stephanie C. Hicks, Martin J. Aryee, and Rafael A. Irizarry. “[Feature Selection and Dimension Reduction for Single Cell RNA-Seq Based on a Multinomial Model](https://doi.org/10.1101/574574).” BioRxiv, March 11, 2019.
