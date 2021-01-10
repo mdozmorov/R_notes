@@ -201,6 +201,8 @@ R learning and data analysis resources. Please, [contribute and get in touch](CO
 
 ### Visualization
 
+- [paletteer](https://github.com/EmilHvitfeldt/paletteer) - Collection of most color palettes in a single R package
+
 - [circlize](https://CRAN.R-project.org/package=circlize) - Circular Visualization in R. [Documentation](http://zuguang.de/circlize_book/book/index.html)
 
 - [UpSetR](https://CRAN.R-project.org/package=UpSetR) - stretched and aligned Venn and Euler diagrams. [Slides by Nils Gehlenborg](https://www.bioconductor.org/help/course-materials/2017/BioC2017/Day1/InvitedSpeakers/relaxation-techniques-upset-data-scientist.pdf)
