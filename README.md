@@ -80,6 +80,8 @@ R learning and data analysis resources. Please, [contribute and get in touch](CO
 
 - [Efficient R programming](https://bookdown.org/csgillespie/efficientR/) - advanced concepts for efficient (R) programming, by Colin Gillespie & Robin Lovelace
 
+- [SDS 375 Data Visualization in R](https://wilkelab.org/SDS375/schedule.html) by Claus Wilke. [GitHub: wilkelab/SDS375](https://github.com/wilkelab/SDS375). [Tweet](https://twitter.com/ClausWilke/status/1378853537237585924?s=20)
+
 - [RMarkdown from RStudio](https://rmarkdown.rstudio.com/lesson-1.html) - illustrated guide to RMarkdown 
 
 - [Rmarkdown for Scientists](https://rmd4sci.njtierney.com/) book by Nicholas Tierney. [GitHub](https://github.com/njtierney/rmd4sci)
