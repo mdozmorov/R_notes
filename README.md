@@ -203,6 +203,8 @@ R learning and data analysis resources. Please, [contribute and get in touch](CO
 
 ### Visualization
 
+- [ggridges](https://github.com/wilkelab/ggridges) - Ridgeline plots in ggplot2. [Introduction to ggridges](https://cran.r-project.org/web/packages/ggridges/vignettes/introduction.html)
+
 - [ggstream](https://github.com/davidsjoberg/ggstream) - A package to make streamplots
 
 - [paletteer](https://github.com/EmilHvitfeldt/paletteer) - Collection of most color palettes in a single R package
