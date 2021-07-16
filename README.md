@@ -48,6 +48,8 @@ R learning and data analysis resources. Please, [contribute and get in touch](CO
 
 - [Awesome ggplot2](https://github.com/erikgahner/awesome-ggplot2) - A curated list of awesome ggplot2 tutorials, packages etc.
 
+- [awesome-r-dataviz](https://github.com/krzjoa/awesome-r-dataviz) - Curated resources for Data Visualization, Drawing & Publishing in R
+
 ## Courses
 
 - [learnR4free](https://www.learnr4free.com/en/index.html) - all sorts of resources (books, videos, interactive websites, papers) to learn R. [Tweet](https://twitter.com/icymi_r/status/1325021727412334592?s=20)
