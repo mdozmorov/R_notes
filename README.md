@@ -199,7 +199,7 @@ R learning and data analysis resources. Please, [contribute and get in touch](CO
 - [softImpute](https://CRAN.R-project.org/package=softImpute) - matrix completion (imputation). A combination of two algorithms, nuclear-norm-regularized matrix approximation and maximum-margin matrix factorization. R package, distributed version using Spark cluster. By Trevor Hastie
     - Hastie, Trevor, Rahul Mazumder, Jason Lee, and Reza Zadeh. “[Matrix Completion and Low-Rank SVD via Fast Alternating Least Squares](http://arxiv.org/abs/1410.2596).” ArXiv:1410.2596 [Stat], October 9, 2014. 
 
-- [missForest](https://CRAN.R-project.org/package=missForest) - Nonparametric Missing Value Imputation using Random Forest
+- [missForest](https://CRAN.R-project.org/package=missForest) - Nonparametric Missing Value Imputation using Random Forest. Handles continuous and categorical data. Training RF on the complete data, then predicting the missing values iteratively. 
     - Stekhoven, D. J., and P. Buhlmann. “[MissForest--Non-Parametric Missing Value Imputation for Mixed-Type Data](https://doi.org/10.1093/bioinformatics/btr597).” Bioinformatics 28, no. 1 (January 1, 2012)
 
 - [mice](https://CRAN.R-project.org/package=mice) - Multivariate Imputation using Fully Conditional Specification (FCS). By Stef van Buuren
