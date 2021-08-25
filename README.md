@@ -50,7 +50,11 @@ R learning and data analysis resources. Please, [contribute and get in touch](CO
 
 - [awesome-r-dataviz](https://github.com/krzjoa/awesome-r-dataviz) - Curated resources for Data Visualization, Drawing & Publishing in R
 
+- [introverse](https://spielmanlab.github.io/introverse/index.html) - alternate documentation for commonly-used functions and concepts in Base R and in the tidyverse. [Tweet](https://twitter.com/stephspiel/status/1430200830527950856?s=20)
+
 ## Courses
+
+- [swirl](http://swirlstats.com/) - R package for interactive R leaning
 
 - [learnR4free](https://www.learnr4free.com/en/index.html) - all sorts of resources (books, videos, interactive websites, papers) to learn R. [Tweet](https://twitter.com/icymi_r/status/1325021727412334592?s=20)
 
@@ -67,8 +71,6 @@ R learning and data analysis resources. Please, [contribute and get in touch](CO
 - [List of courses teaching R](https://github.com/rstudio-education/rstats-ed)
 
 - [The learnr tutorials in RStudio Cloud's primers](https://github.com/rstudio-education/primers), avaliable on [RStudio Cloud](https://rstudio.cloud/projects)
-
-- [swirl](http://swirlstats.com/) - R package for interactive R leaning
 
 - [FasteR](https://github.com/matloff/fasteR) - Fast Lane to Learning R, learn R language in R console by following examples, by Norm Matloff
 
