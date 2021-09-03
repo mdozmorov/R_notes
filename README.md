@@ -150,6 +150,8 @@ R learning and data analysis resources. Please, [contribute and get in touch](CO
 
 ### Conference material
 
+- [R Consortium playlists](https://www.youtube.com/channel/UC_R5smHVXRYGhZYDJsnXTwg/playlists) - useR! conferences and more
+
 - [Bioconductor 2020 workshops](https://bioc2020.bioconductor.org/workshops)
 
 - [e-Rum2020 Conference Materials](https://2020.erum.io/rewatch/), [e-Rum2020 Program GitHub](https://github.com/Milano-R/erum2020program)
