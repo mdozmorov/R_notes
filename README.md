@@ -231,6 +231,8 @@ R learning and data analysis resources. Please, [contribute and get in touch](CO
 
 - [ggord](https://github.com/fawda123/ggord) - PCA and other dim reduction methods plotting with ellipses
 
+- [pcaExplorer](https://bioconductor.org/packages/pcaExplorer/) - Interactive Visualization of RNA-seq Data Using a Principal Components Approach. [Tweet](https://twitter.com/chelysheva_i/status/1434488110990102531?s=20)
+
 - [PCAtools](https://bioconductor.org/packages/PCAtools/) - set of tools performing common PCA-related tasks, by Kevin Blighe and Aaron Lun. [GitHub](https://github.com/kevinblighe/PCAtools)
 
 - [visNetwork](https://CRAN.R-project.org/package=visNetwork) - an R package for network visualization, using vis.js javascript library. 
