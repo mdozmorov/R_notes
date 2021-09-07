@@ -256,6 +256,8 @@ R learning and data analysis resources. Please, [contribute and get in touch](CO
 
 ## R Misc
 
+- [R-parallel](https://github.com/tobigithub/R-parallel) - Using R with many CPUs. [Wiki](https://github.com/tobigithub/R-parallel/wiki) with overview, examples, snippets, links, and more
+
 - [containerit](https://github.com/o2r-project/containerit) - an R package to create a Docker file from R session. Similar functionality provided by `dockerfiler`, `liftr`, `automagic`. 
     - Nüst, Daniel, and Matthias Hinz. “[Containerit: Generating Dockerfiles for Reproducible Research with R](https://doi.org/10.21105/joss.01603).” Journal of Open Source Software 4, no. 40 (August 21, 2019)
 
