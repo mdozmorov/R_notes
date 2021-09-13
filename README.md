@@ -258,6 +258,8 @@ R learning and data analysis resources. Please, [contribute and get in touch](CO
 
 ## R Misc
 
+- [Rcpp for everyone](https://teuder.github.io/rcpp4everyone_en/) - Rcpp bookdown. [GitHub](https://github.com/teuder/rcpp4everyone_en)
+
 - [R-parallel](https://github.com/tobigithub/R-parallel) - Using R with many CPUs. [Wiki](https://github.com/tobigithub/R-parallel/wiki) with overview, examples, snippets, links, and more
 
 - [containerit](https://github.com/o2r-project/containerit) - an R package to create a Docker file from R session. Similar functionality provided by `dockerfiler`, `liftr`, `automagic`. 
