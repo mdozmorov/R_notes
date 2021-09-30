@@ -169,6 +169,8 @@ R learning and data analysis resources. Please, [contribute and get in touch](CO
 
 ### Bioconductor
 
+- [S4-Bioconductor](https://github.com/MalteThodberg/S4-Bioconductor) - Online resources for learning programming with S4 in R in general, and the particular implementation in Bioconductor (BiocGenerics, S4Vectors, IRanges, GRanges, SummarizedExperiment, Biostrings, etc.).
+
 - [code.bioconductor.org](https://code.bioconductor.org) -  Browse the contents and git history of all @Bioconductor software packages, Search for across all software packages at once, and filter results by file names, types, or packages #rstats. [Tweet](https://twitter.com/grimbough/status/1387386008799518724?s=20)
 - [Developer's page](https://www.bioconductor.org/developers/)
 - [Steps to contribute packages to Bioconductor](https://github.com/Bioconductor/Contributions)
