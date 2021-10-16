@@ -19,7 +19,7 @@ R learning and data analysis resources. Please, [contribute and get in touch](CO
 - [R Data Analysis](#r-data-analysis)
   - [Imputation](#imputation)
   - [Visualization](#visualization)
-  - [Correlation, Dimensionality reduction](#correlation-dimensionality-reduction)
+  - [Clustering, Dimensionality reduction](#clustering-dimensionality-reduction)
 - [R Misc](#r-misc)
 - [R tips & tricks](#r-tips--tricks)
 - [R questions](#r-questions)
@@ -246,7 +246,10 @@ R learning and data analysis resources. Please, [contribute and get in touch](CO
 - [Simple Gantt charts in R with ggplot2 and Microsoft Excel](https://www.molecularecologist.com/2019/01/simple-gantt-charts-in-r-with-ggplot2-and-the-tidyverse/)
 
 
-### Correlation, Dimensionality reduction
+### Clustering, Dimensionality reduction
+
+- [ClusterEnG](http://education.knoweng.org/clustereng/) - online clustering and interactive visualization (D3). Seven algorithms: k-means, k-medoids, affinity propagation, spectral clustering, Gaussian mixture model, hierarchical clustering and DBSCAN. Clustering validation metrics. Tutorials using NCI60 data and B-cell lymphoma gene expression. R backend. [GitHub](https://github.com/KnowEnG/ClusterEnG).
+    - Manjunath, Mohith, Yi Zhang, Steve H. Yeo, Omar Sobh, Nathan Russell, Christian Followell, Colleen Bushell, Umberto Ravaioli, and Jun S. Song. “[ClusterEnG: An Interactive Educational Web Resource for Clustering and Visualizing High-Dimensional Data](https://doi.org/10.7717/peerj-cs.155).” PeerJ. Computer Science 4 (2018). 
 
 - [bigcor](https://www.rdocumentation.org/packages/propagate/versions/1.0-6/topics/bigcor) - Creating Very Large Correlation/Covariance Matrices. [Tweet](https://twitter.com/neilfws/status/1341602291070038016?s=20)
 
