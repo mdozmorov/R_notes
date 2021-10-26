@@ -291,6 +291,22 @@ R learning and data analysis resources. Please, [contribute and get in touch](CO
 
 ## R tips & tricks
 
+- Install R as a user. [Slack](https://community-bioc.slack.com/archives/CLUJWDQF4/p1635267812035500)
+
+```bash
+$ curl -O https://cran.r-project.org/src/base/R-4/R-4.1.1.tar.gz
+$ tar xzf R-4.1.1.tar.gz
+$ cd R-4.1.1
+$ mkdir -p "$HOME/software/R-4.1.1"
+$ ./configure --prefix="$HOME/software/R-4.1.1"
+$ make
+$ make install
+# Then add:
+export PATH=$HOME/software/R-4.1.1/bin:$PATH
+# and you've got R / Rscript (=R 4.1.1) ready to go.
+```
+
+
 - Convert continuous to categorical value
 
 ````
