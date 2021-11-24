@@ -247,6 +247,8 @@ R learning and data analysis resources. Please, [contribute and get in touch](CO
 
 - [Simple Gantt charts in R with ggplot2 and Microsoft Excel](https://www.molecularecologist.com/2019/01/simple-gantt-charts-in-r-with-ggplot2-and-the-tidyverse/)
 
+- [RIdeogram](https://CRAN.R-project.org/package=RIdeogram) - an R package for whole-genome overlay of genomic data on an ideogram. Plot continuous and discrete data as heatmaps and track labels. GC content, gene and repeat density, DNA methylation distribution, genomic synteny. Similar functionality: [ggbio](https://bioconductor.org/packages/ggbio/), [IdeoViz](https://bioconductor.org/packages/IdeoViz/), [chromPlot](https://bioconductor.org/packages/chromPlot/), [chromDraw](https://bioconductor.org/packages/chromDraw/), [karyoploteR](https://bioconductor.org/packages/karyoploteR/), [chromoMap](https://CRAN.R-project.org/package=chromoMap), JavaScript [Ideogram.js](https://github.com/eweitz/ideogram) and [karyotypeSVG](https://github.com/andreasprlic/karyotypeSVG). Distinctive feature - visualizing changes between two or more genomes using Bezier curves (synteny, genomic rearrangements).
+    - Hao, Zhaodong, Dekang Lv, Ying Ge, Jisen Shi, Dolf Weijers, Guangchuang Yu, and Jinhui Chen. “[RIdeogram: Drawing SVG Graphics to Visualize and Map Genome-Wide Data on the Idiograms](https://doi.org/10.7717/peerj-cs.251),” 2020, 11.
 
 ### Clustering, Dimensionality reduction
 
