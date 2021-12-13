@@ -223,6 +223,8 @@ R learning and data analysis resources. Please, [contribute and get in touch](CO
 
 - [ggstream](https://github.com/davidsjoberg/ggstream) - A package to make streamplots
 
+- [MetBrewer](https://github.com/BlakeRMills/MetBrewer) - Color palette package in R inspired by works at the Metropolitan Museum of Art in New York
+
 - [paletteer](https://github.com/EmilHvitfeldt/paletteer) - Collection of most color palettes in a single R package
 
 - [ggsci](https://CRAN.R-project.org/package=ggsci) - Scientific Journal and Sci-Fi Themed Color Palettes for 'ggplot2'
