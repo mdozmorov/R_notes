@@ -215,6 +215,8 @@ R learning and data analysis resources. Please, [contribute and get in touch](CO
 
 ### Visualization
 
+- [ggstatsplot](https://github.com/IndrajeetPatil/ggstatsplot) - Enhancing `{ggplot2}` plots with statistical analysis. Examples on the [website](https://indrajeetpatil.github.io/ggstatsplot/).
+
 - [ggpointdensity](https://github.com/LKremer/ggpointdensity) - A Cross Between a Scatter Plot and a 2D Density Plot.
 
 - [ggbreak](https://github.com/YuLab-SMU/ggbreak) - set axis breaks for ‘ggplot2’
