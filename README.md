@@ -172,6 +172,8 @@ R learning and data analysis resources. Please, [contribute and get in touch](CO
 
 ### Bioconductor
 
+- [Bioc package list](https://csoneson.github.io/BiocPkgList/) - Summary and analysis of popular Bioconductor packages, by Charlotte Soneson. R/tidyverse code, [GitHub](https://github.com/csoneson/BiocPkgList)
+
 - [S4-Bioconductor](https://github.com/MalteThodberg/S4-Bioconductor) - Online resources for learning programming with S4 in R in general, and the particular implementation in Bioconductor (BiocGenerics, S4Vectors, IRanges, GRanges, SummarizedExperiment, Biostrings, etc.).
 
 - [code.bioconductor.org](https://code.bioconductor.org) -  Browse the contents and git history of all @Bioconductor software packages, Search for across all software packages at once, and filter results by file names, types, or packages #rstats. [Tweet](https://twitter.com/grimbough/status/1387386008799518724?s=20)
