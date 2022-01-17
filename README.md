@@ -217,6 +217,11 @@ R learning and data analysis resources. Please, [contribute and get in touch](CO
 
 ### Visualization
 
+- [RainCloudPlots](https://github.com/RainCloudPlots/RainCloudPlots) - Code and tutorials to visualise your data in a way that is both beautiful and statistically valid. R, Python, Matlab examples. <details>
+  <summary>Paper</summary>
+  Allen M, Poggiali D, Whitaker K et al. Raincloud plots: a multi-platform tool for robust data visualization [version 2; peer review: 2 approved]. Wellcome Open Res 2021, 4:63. DOI: 10.12688/wellcomeopenres.15191.2
+</details>
+
 - [ggstatsplot](https://github.com/IndrajeetPatil/ggstatsplot) - Enhancing `{ggplot2}` plots with statistical analysis. Examples on the [website](https://indrajeetpatil.github.io/ggstatsplot/).
 
 - [ggpointdensity](https://github.com/LKremer/ggpointdensity) - A Cross Between a Scatter Plot and a 2D Density Plot.
