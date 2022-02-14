@@ -51,6 +51,8 @@ R learning and data analysis resources. Please, [contribute and get in touch](CO
 
 - [awesome-r-dataviz](https://github.com/krzjoa/awesome-r-dataviz) - Curated resources for Data Visualization, Drawing & Publishing in R
 
+- [awesome-r-pkgtools](https://github.com/IndrajeetPatil/awesome-r-pkgtools) - A curated list of awesome resources for R package development
+
 - [introverse](https://spielmanlab.github.io/introverse/index.html) - alternate documentation for commonly-used functions and concepts in Base R and in the tidyverse. [Tweet](https://twitter.com/stephspiel/status/1430200830527950856?s=20)
 
 - [awesome-r-pkgtools](https://github.com/IndrajeetPatil/awesome-r-pkgtools) - A curated list of awesome resources for R package development
