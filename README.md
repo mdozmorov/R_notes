@@ -219,43 +219,43 @@ R learning and data analysis resources. Please, [contribute and get in touch](CO
 
 ### Visualization
 
-- [RainCloudPlots](https://github.com/RainCloudPlots/RainCloudPlots) - Code and tutorials to visualise your data in a way that is both beautiful and statistically valid. R, Python, Matlab examples. <details>
-  <summary>Paper</summary>
-  Allen M, Poggiali D, Whitaker K et al. Raincloud plots: a multi-platform tool for robust data visualization [version 2; peer review: 2 approved]. Wellcome Open Res 2021, 4:63. DOI: 10.12688/wellcomeopenres.15191.2
-</details>
-
-- [ggstatsplot](https://github.com/IndrajeetPatil/ggstatsplot) - Enhancing `{ggplot2}` plots with statistical analysis. Examples on the [website](https://indrajeetpatil.github.io/ggstatsplot/).
-
-- [ggpointdensity](https://github.com/LKremer/ggpointdensity) - A Cross Between a Scatter Plot and a 2D Density Plot.
-
-- [ggbreak](https://github.com/YuLab-SMU/ggbreak) - set axis breaks for ‘ggplot2’
-
-- [ggridges](https://github.com/wilkelab/ggridges) - Ridgeline plots in ggplot2. [Introduction to ggridges](https://cran.r-project.org/web/packages/ggridges/vignettes/introduction.html)
-
-- [ggstream](https://github.com/davidsjoberg/ggstream) - A package to make streamplots
-
-- [MetBrewer](https://github.com/BlakeRMills/MetBrewer) - Color palette package in R inspired by works at the Metropolitan Museum of Art in New York
-
-- [paletteer](https://github.com/EmilHvitfeldt/paletteer) - Collection of most color palettes in a single R package
-
-- [ggsci](https://CRAN.R-project.org/package=ggsci) - Scientific Journal and Sci-Fi Themed Color Palettes for 'ggplot2'
-
 - [circlize](https://CRAN.R-project.org/package=circlize) - Circular Visualization in R. [Documentation](http://zuguang.de/circlize_book/book/index.html)
 
-- [UpSetR](https://CRAN.R-project.org/package=UpSetR) - stretched and aligned Venn and Euler diagrams. [Slides by Nils Gehlenborg](https://www.bioconductor.org/help/course-materials/2017/BioC2017/Day1/InvitedSpeakers/relaxation-techniques-upset-data-scientist.pdf)
-    - Conway, Jake R, Alexander Lex, and Nils Gehlenborg. “[UpSetR: An R Package for the Visualization of Intersecting Sets and Their Properties](https://doi.org/10.1093/bioinformatics/btx364).” Bioinformatics 33, no. 18 (September 15, 2017)
+- [DiagrammeR](https://github.com/rich-iannone/DiagrammeR) - Graph and network visualization using tabular data in R. 
+
+- [ggbreak](https://github.com/YuLab-SMU/ggbreak) - set axis breaks for ‘ggplot2’
 
 - [ggfortify](https://CRAN.R-project.org/package=ggfortify) - Enhanced plotting for commonly usedstatistics, such as GLM, time series, PCA families, clustering and survival analysis
 
 - [ggord](https://github.com/fawda123/ggord) - PCA and other dim reduction methods plotting with ellipses
 
+- [ggpointdensity](https://github.com/LKremer/ggpointdensity) - A Cross Between a Scatter Plot and a 2D Density Plot.
+
+- [ggridges](https://github.com/wilkelab/ggridges) - Ridgeline plots in ggplot2. [Introduction to ggridges](https://cran.r-project.org/web/packages/ggridges/vignettes/introduction.html)
+
+- [ggstatsplot](https://github.com/IndrajeetPatil/ggstatsplot) - Enhancing `{ggplot2}` plots with statistical analysis. Examples on the [website](https://indrajeetpatil.github.io/ggstatsplot/).
+
+- [ggstream](https://github.com/davidsjoberg/ggstream) - A package to make streamplots
+
+- [ggsci](https://CRAN.R-project.org/package=ggsci) - Scientific Journal and Sci-Fi Themed Color Palettes for 'ggplot2'
+
+- [MetBrewer](https://github.com/BlakeRMills/MetBrewer) - Color palette package in R inspired by works at the Metropolitan Museum of Art in New York
+
+- [paletteer](https://github.com/EmilHvitfeldt/paletteer) - Collection of most color palettes in a single R package
+
 - [pcaExplorer](https://bioconductor.org/packages/pcaExplorer/) - Interactive Visualization of RNA-seq Data Using a Principal Components Approach. [Tweet](https://twitter.com/chelysheva_i/status/1434488110990102531?s=20)
 
 - [PCAtools](https://bioconductor.org/packages/PCAtools/) - set of tools performing common PCA-related tasks, by Kevin Blighe and Aaron Lun. [GitHub](https://github.com/kevinblighe/PCAtools)
 
+- [RainCloudPlots](https://github.com/RainCloudPlots/RainCloudPlots) - Code and tutorials to visualise your data in a way that is both beautiful and statistically valid. R, Python, Matlab examples. <details>
+  <summary>Paper</summary>
+  Allen M, Poggiali D, Whitaker K et al. Raincloud plots: a multi-platform tool for robust data visualization [version 2; peer review: 2 approved]. Wellcome Open Res 2021, 4:63. DOI: 10.12688/wellcomeopenres.15191.2
+</details>
+
 - [visNetwork](https://CRAN.R-project.org/package=visNetwork) - an R package for network visualization, using vis.js javascript library. 
 
-- [DiagrammeR](https://github.com/rich-iannone/DiagrammeR) - Graph and network visualization using tabular data in R. 
+- [UpSetR](https://CRAN.R-project.org/package=UpSetR) - stretched and aligned Venn and Euler diagrams. [Slides by Nils Gehlenborg](https://www.bioconductor.org/help/course-materials/2017/BioC2017/Day1/InvitedSpeakers/relaxation-techniques-upset-data-scientist.pdf)
+    - Conway, Jake R, Alexander Lex, and Nils Gehlenborg. “[UpSetR: An R Package for the Visualization of Intersecting Sets and Their Properties](https://doi.org/10.1093/bioinformatics/btx364).” Bioinformatics 33, no. 18 (September 15, 2017)
 
 - [How to Create a Bar Chart Race in R](https://michaeltoth.me/how-to-create-a-bar-chart-race-in-r-mapping-united-states-city-population-1790-2010.html) - Mapping United States City Population 1790-2010. 
 
