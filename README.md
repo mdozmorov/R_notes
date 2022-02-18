@@ -252,6 +252,8 @@ R learning and data analysis resources. Please, [contribute and get in touch](CO
   Allen M, Poggiali D, Whitaker K et al. Raincloud plots: a multi-platform tool for robust data visualization [version 2; peer review: 2 approved]. Wellcome Open Res 2021, 4:63. DOI: 10.12688/wellcomeopenres.15191.2
 </details>
 
+- [scattermore](https://github.com/exaexa/scattermore) - very fast scatterplots for R. [CRAN](https://CRAN.R-project.org/package=scattermore)
+
 - [visNetwork](https://CRAN.R-project.org/package=visNetwork) - an R package for network visualization, using vis.js javascript library. 
 
 - [UpSetR](https://CRAN.R-project.org/package=UpSetR) - stretched and aligned Venn and Euler diagrams. [Slides by Nils Gehlenborg](https://www.bioconductor.org/help/course-materials/2017/BioC2017/Day1/InvitedSpeakers/relaxation-techniques-upset-data-scientist.pdf)
