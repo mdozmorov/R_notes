@@ -275,6 +275,12 @@ R learning and data analysis resources. Please, [contribute and get in touch](CO
 - [RIdeogram](https://CRAN.R-project.org/package=RIdeogram) - an R package for whole-genome overlay of genomic data on an ideogram. Plot continuous and discrete data as heatmaps and track labels. GC content, gene and repeat density, DNA methylation distribution, genomic synteny. Similar functionality: [ggbio](https://bioconductor.org/packages/ggbio/), [IdeoViz](https://bioconductor.org/packages/IdeoViz/), [chromPlot](https://bioconductor.org/packages/chromPlot/), [chromDraw](https://bioconductor.org/packages/chromDraw/), [karyoploteR](https://bioconductor.org/packages/karyoploteR/), [chromoMap](https://CRAN.R-project.org/package=chromoMap), JavaScript [Ideogram.js](https://github.com/eweitz/ideogram) and [karyotypeSVG](https://github.com/andreasprlic/karyotypeSVG). Distinctive feature - visualizing changes between two or more genomes using Bezier curves (synteny, genomic rearrangements).
     - Hao, Zhaodong, Dekang Lv, Ying Ge, Jisen Shi, Dolf Weijers, Guangchuang Yu, and Jinhui Chen. “[RIdeogram: Drawing SVG Graphics to Visualize and Map Genome-Wide Data on the Idiograms](https://doi.org/10.7717/peerj-cs.251),” 2020, 11.
 
+- [volcano3D](https://github.com/KatrionaGoldmann/volcano3D) - An R package to plot interactive three-way differential expression analysis. A polar coordinate space to plot Z-scores or fold changes of genes amond three groups, z-axis is -log10 p-value. [CRAN](https://CRAN.R-project.org/package=volcano3D), [website](https://katrionagoldmann.github.io/volcano3D/index.html), [Olnile demo](https://peac.hpc.qmul.ac.uk/). <details>
+  <summary>Paper</summary>
+  Lewis, Myles J., Michael R. Barnes, Kevin Blighe, Katriona Goldmann, Sharmila Rana, Jason A. Hackney, Nandhini Ramamoorthi, et al. “Molecular Portraits of Early Rheumatoid Arthritis Identify Clinical and Treatment Response Phenotypes.” Cell Reports 28, no. 9 (August 2019): 2455-2470.e5. https://doi.org/10.1016/j.celrep.2019.07.091.
+</details>
+
+
 ### Clustering, Dimensionality reduction
 
 - [ClusterEnG](http://education.knoweng.org/clustereng/) - online clustering and interactive visualization (D3). Seven algorithms: k-means, k-medoids, affinity propagation, spectral clustering, Gaussian mixture model, hierarchical clustering and DBSCAN. Clustering validation metrics. Tutorials using NCI60 data and B-cell lymphoma gene expression. R backend. [GitHub](https://github.com/KnowEnG/ClusterEnG).
