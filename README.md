@@ -280,6 +280,10 @@ R learning and data analysis resources. Please, [contribute and get in touch](CO
   Lewis, Myles J., Michael R. Barnes, Kevin Blighe, Katriona Goldmann, Sharmila Rana, Jason A. Hackney, Nandhini Ramamoorthi, et al. “Molecular Portraits of Early Rheumatoid Arthritis Identify Clinical and Treatment Response Phenotypes.” Cell Reports 28, no. 9 (August 2019): 2455-2470.e5. https://doi.org/10.1016/j.celrep.2019.07.091.
 </details>
 
+- [valr](https://github.com/rnabioco/valr) - R package for bedtools-like genome interval analysis, uses tidyverse approach. Read in BED bedGraph, VCF formats as tibble data_frame objects. Table 1 - overview of major functions. <details>
+  <summary>Paper</summary>
+  Riemondy, Kent A., Ryan M. Sheridan, Austin Gillen, Yinni Yu, Christopher G. Bennett, and Jay R. Hesselberth. “Valr: Reproducible Genome Interval Analysis in R.” F1000Research 6 (June 29, 2017): 1025. https://doi.org/10.12688/f1000research.11997.1.
+</details>
 
 ### Clustering, Dimensionality reduction
 
