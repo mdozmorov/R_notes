@@ -270,6 +270,8 @@ R learning and data analysis resources. Please, [contribute and get in touch](CO
   Anand, Lakshay, and Carlos M. Rodriguez Lopez. “ChromoMap: An R Package for Interactive Visualization of Multi-Omics Data and Annotation of Chromosomes.” BMC Bioinformatics 23, no. 1 (December 2022): 33. https://doi.org/10.1186/s12859-021-04556-z.
 </details>
 
+- [ggcoverage](https://github.com/showteeth/ggcoverage) - Visualize and annotate genomic coverage with ggplot2
+
 - [ngsplot](https://github.com/shenlab-sinai/ngsplot) - Quick mining and visualization of NGS data by integrating genomic databases. Average profiles and heatmaps of ChIP-seq-like signals.
 
 - [RIdeogram](https://CRAN.R-project.org/package=RIdeogram) - an R package for whole-genome overlay of genomic data on an ideogram. Plot continuous and discrete data as heatmaps and track labels. GC content, gene and repeat density, DNA methylation distribution, genomic synteny. Similar functionality: [ggbio](https://bioconductor.org/packages/ggbio/), [IdeoViz](https://bioconductor.org/packages/IdeoViz/), [chromPlot](https://bioconductor.org/packages/chromPlot/), [chromDraw](https://bioconductor.org/packages/chromDraw/), [karyoploteR](https://bioconductor.org/packages/karyoploteR/), [chromoMap](https://CRAN.R-project.org/package=chromoMap), JavaScript [Ideogram.js](https://github.com/eweitz/ideogram) and [karyotypeSVG](https://github.com/andreasprlic/karyotypeSVG). Distinctive feature - visualizing changes between two or more genomes using Bezier curves (synteny, genomic rearrangements).
