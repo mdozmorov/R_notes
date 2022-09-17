@@ -223,6 +223,8 @@ R learning and data analysis resources. Please, [contribute and get in touch](CO
 
 - [DiagrammeR](https://github.com/rich-iannone/DiagrammeR) - Graph and network visualization using tabular data in R. 
 
+- [ggalluvial](https://github.com/corybrunson/ggalluvial) - a ggplot setension for alluvial plots
+
 - [ggbreak](https://github.com/YuLab-SMU/ggbreak) - set axis breaks for ‘ggplot2’
 
 - [ggfortify](https://CRAN.R-project.org/package=ggfortify) - Enhanced plotting for commonly usedstatistics, such as GLM, time series, PCA families, clustering and survival analysis
