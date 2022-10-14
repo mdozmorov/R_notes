@@ -229,6 +229,8 @@ R learning and data analysis resources. Please, [contribute and get in touch](CO
 
 - [ggfortify](https://CRAN.R-project.org/package=ggfortify) - Enhanced plotting for commonly usedstatistics, such as GLM, time series, PCA families, clustering and survival analysis
 
+- [ggtern](http://www.ggtern.com/docs/) - ternary diagrams in R
+
 - [ggord](https://github.com/fawda123/ggord) - PCA and other dim reduction methods plotting with ellipses
 
 - [ggpointdensity](https://github.com/LKremer/ggpointdensity) - A Cross Between a Scatter Plot and a 2D Density Plot.
