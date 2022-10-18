@@ -43,6 +43,8 @@ R learning and data analysis resources. Please, [contribute and get in touch](CO
 
 - [ardeeshany/Parallel_Computing](https://github.com/ardeeshany/Parallel_Computing) - A CheatSheet for Parallel Computation in R
 
+- [awesome-quarto](https://github.com/mcanouil/awesome-quarto) - A curated list of Quarto talks, tools, examples & articles
+
 - [awesome-R](https://github.com/qinwf/awesome-R) - A curated list of awesome R packages, frameworks and software
 
 - [awesome-rshiny](https://github.com/grabear/awesome-rshiny) - a list of resources to learn R Shiny
