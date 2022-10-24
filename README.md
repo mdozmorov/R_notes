@@ -239,6 +239,8 @@ R learning and data analysis resources. Please, [contribute and get in touch](CO
 
 - [ggridges](https://github.com/wilkelab/ggridges) - Ridgeline plots in ggplot2. [Introduction to ggridges](https://cran.r-project.org/web/packages/ggridges/vignettes/introduction.html)
 
+- [ggstats](https://github.com/larmarange/ggstats) - plot regression model coefficients (“forest plots”) using ggplot2, compare models, proportion, cross-tabuation plots. Examples on the [website](https://larmarange.github.io/ggstats/)
+
 - [ggstatsplot](https://github.com/IndrajeetPatil/ggstatsplot) - Enhancing `{ggplot2}` plots with statistical analysis. Examples on the [website](https://indrajeetpatil.github.io/ggstatsplot/).
 
 - [ggstream](https://github.com/davidsjoberg/ggstream) - A package to make streamplots
