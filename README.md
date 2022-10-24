@@ -223,6 +223,8 @@ R learning and data analysis resources. Please, [contribute and get in touch](CO
 
 - [circlize](https://CRAN.R-project.org/package=circlize) - Circular Visualization in R. [Documentation](http://zuguang.de/circlize_book/book/index.html)
 
+- [cols4all](https://github.com/mtennekes/cols4all) - interactive selection of color palettes (`c4a_gui()`). categorical (qualitative) palettes, sequential palettes, diverging palettes, and bivariate palettes (divided into three subtypes). Considering color blindness. 
+
 - [DiagrammeR](https://github.com/rich-iannone/DiagrammeR) - Graph and network visualization using tabular data in R. 
 
 - [ggalluvial](https://github.com/corybrunson/ggalluvial) - a ggplot setension for alluvial plots
