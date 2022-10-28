@@ -225,6 +225,8 @@ R learning and data analysis resources. Please, [contribute and get in touch](CO
 
 - [cols4all](https://github.com/mtennekes/cols4all) - interactive selection of color palettes (`c4a_gui()`). categorical (qualitative) palettes, sequential palettes, diverging palettes, and bivariate palettes (divided into three subtypes). Considering color blindness. 
 
+- [corrplot](https://github.com/taiyun/corrplot) - A visual exploratory tool on correlation matrix. R package, [CRAN](https://CRAN.R-project.org/package=corrplot), [Documentation](https://taiyun.github.io/corrplot/)
+
 - [DiagrammeR](https://github.com/rich-iannone/DiagrammeR) - Graph and network visualization using tabular data in R. 
 
 - [ggalluvial](https://github.com/corybrunson/ggalluvial) - a ggplot setension for alluvial plots
