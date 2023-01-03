@@ -221,6 +221,8 @@ R learning and data analysis resources. Please, [contribute and get in touch](CO
 
 ### Visualization
 
+- [FriendsDontLetFriends](https://github.com/cxli233/FriendsDontLetFriends) - Visualization dos and dont's. Friends don't let friends make certain types of data visualization - What are they and why are they bad.
+
 - [circlize](https://CRAN.R-project.org/package=circlize) - Circular Visualization in R. [Documentation](http://zuguang.de/circlize_book/book/index.html)
 
 - [cols4all](https://github.com/mtennekes/cols4all) - interactive selection of color palettes (`c4a_gui()`). categorical (qualitative) palettes, sequential palettes, diverging palettes, and bivariate palettes (divided into three subtypes). Considering color blindness. 
