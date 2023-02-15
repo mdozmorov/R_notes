@@ -241,6 +241,8 @@ R learning and data analysis resources. Please, [contribute and get in touch](CO
 
 - [ggord](https://github.com/fawda123/ggord) - PCA and other dim reduction methods plotting with ellipses
 
+- [ggplot_tricks](https://github.com/teunbrand/ggplot_tricks) - ggplot2 tricks, e.g., text contrast on a heatmap, color/fill tricks.
+
 - [ggpointdensity](https://github.com/LKremer/ggpointdensity) - A Cross Between a Scatter Plot and a 2D Density Plot.
 
 - [ggridges](https://github.com/wilkelab/ggridges) - Ridgeline plots in ggplot2. [Introduction to ggridges](https://cran.r-project.org/web/packages/ggridges/vignettes/introduction.html)
