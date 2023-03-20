@@ -200,6 +200,7 @@ R learning and data analysis resources. Please, [contribute and get in touch](CO
 
 - [autoEDA-resources](https://github.com/mstaniak/autoEDA-resources) - A list of software and papers related to automatic/fast Exploratory Data Analysis
 
+- [cmapR](https://bioconductor.org/packages/cmapR/) -  parse and maniplate data in various formats used by the Connectivity Map. Manipulating annotated matrices stored as GCT or GCTX formats.
 
 ### Imputation
 
