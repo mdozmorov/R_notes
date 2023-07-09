@@ -349,6 +349,8 @@ R learning and data analysis resources. Please, [contribute and get in touch](CO
 
 ## R tips & tricks
 
+- [r-base-shortcuts](https://github.com/nanxstats/r-base-shortcuts) - Base R shortcuts: A collection of lesser-known but powerful idioms and coding patterns for writing concise and fast R code
+
 - Install R as a user. [Slack](https://community-bioc.slack.com/archives/CLUJWDQF4/p1635267812035500)
 
 ```bash
