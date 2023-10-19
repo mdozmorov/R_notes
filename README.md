@@ -323,6 +323,8 @@ R learning and data analysis resources. Please, [contribute and get in touch](CO
 
 ## R Misc
 
+- [pmcbioc](https://mtmorgan.github.io/pmcbioc/articles/introduction.html) - R package fow working with pubmed citations
+
 - [Rcpp for everyone](https://teuder.github.io/rcpp4everyone_en/) - Rcpp bookdown. [GitHub](https://github.com/teuder/rcpp4everyone_en)
 
 - [R-parallel](https://github.com/tobigithub/R-parallel) - Using R with many CPUs. [Wiki](https://github.com/tobigithub/R-parallel/wiki) with overview, examples, snippets, links, and more
