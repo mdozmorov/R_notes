@@ -182,6 +182,7 @@ R learning and data analysis resources. Please, [contribute and get in touch](CO
 
 - [code.bioconductor.org](https://code.bioconductor.org) -  Browse the contents and git history of all @Bioconductor software packages, Search for across all software packages at once, and filter results by file names, types, or packages #rstats. [Tweet](https://twitter.com/grimbough/status/1387386008799518724?s=20)
 - [Developer's page](https://www.bioconductor.org/developers/)
+- [Docker containers for Bioconductor](https://www.bioconductor.org/help/docker/)
 - [Steps to contribute packages to Bioconductor](https://github.com/Bioconductor/Contributions)
 - [Common Bioconductor Methods and Classes](http://bioconductor.org/developers/how-to/commonMethodsAndClasses/)
 - [Develop Bioconductor packages with Docker container](https://divingintogeneticsandgenomics.rbind.io/post/develop-bioconductor-packages-with-docker-container/)
@@ -295,6 +296,8 @@ R learning and data analysis resources. Please, [contribute and get in touch](CO
 
 - [RIdeogram](https://CRAN.R-project.org/package=RIdeogram) - an R package for whole-genome overlay of genomic data on an ideogram. Plot continuous and discrete data as heatmaps and track labels. GC content, gene and repeat density, DNA methylation distribution, genomic synteny. Similar functionality: [ggbio](https://bioconductor.org/packages/ggbio/), [IdeoViz](https://bioconductor.org/packages/IdeoViz/), [chromPlot](https://bioconductor.org/packages/chromPlot/), [chromDraw](https://bioconductor.org/packages/chromDraw/), [karyoploteR](https://bioconductor.org/packages/karyoploteR/), [chromoMap](https://CRAN.R-project.org/package=chromoMap), JavaScript [Ideogram.js](https://github.com/eweitz/ideogram) and [karyotypeSVG](https://github.com/andreasprlic/karyotypeSVG). Distinctive feature - visualizing changes between two or more genomes using Bezier curves (synteny, genomic rearrangements).
     - Hao, Zhaodong, Dekang Lv, Ying Ge, Jisen Shi, Dolf Weijers, Guangchuang Yu, and Jinhui Chen. “[RIdeogram: Drawing SVG Graphics to Visualize and Map Genome-Wide Data on the Idiograms](https://doi.org/10.7717/peerj-cs.251),” 2020, 11.
+
+- [trackplot](https://github.com/PoisonAlien/trackplot) - Generate IGV style locus tracks from bigWig files in R
 
 - [volcano3D](https://github.com/KatrionaGoldmann/volcano3D) - An R package to plot interactive three-way differential expression analysis. A polar coordinate space to plot Z-scores or fold changes of genes amond three groups, z-axis is -log10 p-value. [CRAN](https://CRAN.R-project.org/package=volcano3D), [website](https://katrionagoldmann.github.io/volcano3D/index.html), [Olnile demo](https://peac.hpc.qmul.ac.uk/). <details>
   <summary>Paper</summary>
