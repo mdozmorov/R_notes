@@ -205,6 +205,11 @@ R learning and data analysis resources. Please, [contribute and get in touch](CO
 
 ### Imputation
 
+- Imputation methods comparison, traditional (MICE, missForest) and deep learning-based (GAIN, VAE). Missing completerly at random, at random, or not at random scenarios. Experimental and simulated datasets. Traditional methods perform best. [GitHub](https://github.com/EagerSun/DL-vs-Stat_Impute). <details>
+  <summary>Paper</summary>
+  Sun, Yige, Jing Li, Yifan Xu, Tingting Zhang, and Xiaofeng Wang. “Deep Learning versus Conventional Methods for Missing Data Imputation: A Review and Comparative Study.” Expert Systems with Applications 227 (October 2023): 120201. https://doi.org/10.1016/j.eswa.2023.120201.
+</details>
+
 - [missMDA](https://CRAN.R-project.org/package=missMDA) - Imputation of incomplete continuous or categorical datasets; Missing values are imputed with a principal component analysis (PCA), a multiple correspondence analysis (MCA) model or a multiple factor analysis (MFA) model; Perform multiple imputation with and in PCA or MCA. By Francois Husson
     - Josse, Julie, and François Husson. “[MissMDA : A Package for Handling Missing Values in Multivariate Data Analysis](https://doi.org/10.18637/jss.v070.i01).” Journal of Statistical Software 70, no. 1 (2016). 
 
